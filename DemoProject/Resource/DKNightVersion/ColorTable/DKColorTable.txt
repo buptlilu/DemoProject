@@ -1,0 +1,6 @@
+NORMAL   NIGHT
+#ffffff  #28282a BG
+#f2f2f2  #28282a BG2
+#f3f3f3  #28282a BG3
+#FCFCFC  #28282a BG4
+#ffffff  #000000 BG5

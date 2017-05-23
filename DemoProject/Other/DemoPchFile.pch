@@ -1,0 +1,27 @@
+//
+//  DemoPchFile.pch
+//  DemoProject
+//
+//  Created by lilu on 2017/5/16.
+//  Copyright © 2017年 lilu. All rights reserved.
+//
+
+#ifndef DemoPchFile_pch
+#define DemoPchFile_pch
+
+#import "ACMacros.h"
+#import "XUtil.h"
+#import "Masonry.h"
+
+//导航栏标题字体
+#define NavBarTitleFont  [UIFont systemFontOfSize:17]
+
+// ...表示宏定义的可变参数
+// __VA_ARGS__:表示函数里面的可变参数
+#ifdef DEBUG // 调试
+#define YDLog(...) NSLog(__VA_ARGS__)
+#else // 发布
+#define YDLog(...)
+#endif
+
+#endif /* DemoPchFile_pch */
